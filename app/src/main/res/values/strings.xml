@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">BucketList</string>
+    <string name="trending_places"><u>Trending Places</u></string>
+    <string name="categories"><u>Categories</u></string>
+    <string name="places"><u>Places</u></string>
+    <string name="details"><b>Details:</b></string>
+    <string name="skydivephone"><b>Phone:</b></string>
+    <string name="skydiveadress"><b>Address:</b> Al Seyahi St - Dubai Marina - Dubai - United Arab Emirates</string>
+    <string name="skydivetimings"><b>Hours:</b> 6am–2pm (except Wednesday is a holiday)</string>
+    <string name="skydivephonenumber"><u>+971 4 377 8888</u></string>
+    <string name="skydivedetails">The Palm Drop zone offers visitors truly unique experiences. A tandem skydive from 13,000 feet above the Palm Jumeirah is an incredible experience and should be on everyone’s Dubai to-do list. Experienced skydivers can also avail of coaching, a full-service rigging loft, and free load organizing.</string>
+    <string name="todo">TODO</string>
+    <string name="mussoorie_india">Mussoorie, India</string>
+    <string name="nav_open">NavigationOpening</string>
+    <string name="nav_close">NavigationClosing</string>
+    <string name="hallstatt_europe">Hallstatt, Europe</string>
+    <string name="machu_picchu_sa">Machu Picchu, SA</string>
+    <string name="devils_peak_africa">Devils peak, Africa</string>
+    <string name="canmore_na">Canmore, NA</string>
+    <string name="thredbo_australia">Thredbo , Australia</string>
+    <string name="the_south_pole">The South Pole</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

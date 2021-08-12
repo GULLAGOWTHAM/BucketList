@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:theme="@style/Theme.Parks"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Hillstations"
+    android:background="@drawable/bluewallpaper">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:gravity="center"
+            android:layout_marginLeft="8dp"
+            style="@style/categoriesheadings"
+            android:fontFamily="@font/disney"
+            android:text="Parks"
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:clickable="true"
+            android:drawableRight="@drawable/ic_baseline_arrow"
+            android:id="@+id/arrowp"
+            android:scaleX="0.8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"/>
+
+    </RelativeLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleX="1.1"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="44dp"
+                android:layout_marginTop="-36dp"
+                android:src="@drawable/parksimg"/>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/disneysimg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/disney"
+                    android:layout_marginLeft="44dp"/>
+                <TextView
+                    android:id="@+id/disneystxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    style="@style/Firstline"
+                    android:layout_toRightOf="@id/disneysimg"
+                    android:text="Disney's Animal Kingdom "/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/Secondline"
+                    android:layout_below="@id/disneystxt"
+                    android:layout_toRightOf="@id/disneysimg"
+                    android:text="Theme park in Bay Lake, Florida"/>
+
+            </RelativeLayout>
+            <View
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:scaleX="0.8"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/ferrariimg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ferrari"
+                    android:layout_marginLeft="44dp"/>
+                <TextView
+                    android:id="@+id/ferraritxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    style="@style/Firstline"
+                    android:layout_toRightOf="@id/ferrariimg"
+                    android:text="Ferrari World Abu Dhabi"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/Secondline"
+                    android:layout_below="@id/ferraritxt"
+                    android:layout_toRightOf="@id/ferrariimg"
+                    android:text="Amusement park in UAE"/>
+
+            </RelativeLayout>
+            <View
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:scaleX="0.8"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/uniersalimg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/universal"
+                    android:layout_marginLeft="44dp"/>
+                <TextView
+                    android:id="@+id/uniersaltxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/Firstline"
+                    android:layout_toRightOf="@id/uniersalimg"
+                    android:text="Universal Studios"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/Secondline"
+                    android:layout_below="@id/uniersaltxt"
+                    android:layout_toRightOf="@id/uniersalimg"
+                    android:text="Theme park in Singapore"/>
+
+            </RelativeLayout>
+            <View
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:scaleX="0.8"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/europaimg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/europa"
+                    android:layout_marginLeft="44dp"/>
+                <TextView
+                    android:id="@+id/europatxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/Firstline"
+                    android:layout_toRightOf="@id/europaimg"
+                    android:text="Europa-Park"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/Secondline"
+                    android:layout_below="@id/europatxt"
+                    android:layout_toRightOf="@id/europaimg"
+                    android:text="Theme park in Rust, Germany"/>
+
+            </RelativeLayout>
+            <View
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:scaleX="0.8"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/warnerimg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/warner"
+                    android:layout_marginLeft="44dp"/>
+                <TextView
+                    android:id="@+id/warnertxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    style="@style/Firstline"
+                    android:layout_toRightOf="@id/warnerimg"
+                    android:text="Warner Bros. Movie World"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/Secondline"
+                    android:layout_below="@id/warnertxt"
+                    android:layout_toRightOf="@id/warnerimg"
+                    android:text="Theme park in Oxenford, Australia"/>
+            </RelativeLayout>
+            <View
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:scaleX="0.8"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/goldreefimg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/goldreef"
+                    android:layout_marginLeft="44dp"/>
+                <TextView
+                    android:id="@+id/goldreeftxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/Firstline"
+                    android:layout_toRightOf="@id/goldreefimg"
+                    android:text="Gold Reef City Theme Park"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/Secondline"
+                    android:layout_below="@id/goldreeftxt"
+                    android:layout_toRightOf="@id/goldreefimg"
+                    android:text="Amusement park in South Africa"/>
+            </RelativeLayout>
+            <View
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:scaleX="0.8"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/betoimg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/beto"
+                    android:layout_marginLeft="44dp"/>
+                <TextView
+                    android:id="@+id/betotxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/Firstline"
+                    android:layout_toRightOf="@id/betoimg"
+                    android:text="Beto Carrero World"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/Secondline"
+                    android:layout_below="@id/betotxt"
+                    android:layout_toRightOf="@id/betoimg"
+                    android:text="Theme park in Penha, Santa Catarina, Brazil"/>
+
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

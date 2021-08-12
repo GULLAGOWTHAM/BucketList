@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:theme="@style/Theme.adventure"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Hillstations"
+    android:background="@drawable/greenwallpaper">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:gravity="center"
+            android:layout_marginLeft="8dp"
+            style="@style/categoriesheadings"
+            android:fontFamily="@font/disney"
+            android:text="Adventure"
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:clickable="true"
+            android:drawableRight="@drawable/ic_baseline_arrow"
+            android:id="@+id/arrowa"
+            android:scaleX="0.8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"/>
+
+    </RelativeLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleX="1.1"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="44dp"
+                android:layout_marginTop="-36dp"
+                android:src="@drawable/adventureimg"/>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/blueholeimg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/greatblehole"
+                    android:layout_marginLeft="44dp"/>
+                <TextView
+                    android:id="@+id/blueholetxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    style="@style/Firstline"
+                    android:layout_toRightOf="@id/blueholeimg"
+                    android:text="The Great Blue Hole"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/Secondline"
+                    android:layout_below="@id/blueholetxt"
+                    android:layout_toRightOf="@id/blueholeimg"
+                    android:text="Belize"/>
+
+            </RelativeLayout>
+            <View
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:scaleX="0.8"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/skydiveimg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/tandemskydive"
+                    android:layout_marginLeft="44dp"/>
+                <TextView
+                    android:id="@+id/skydivetxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    style="@style/Firstline"
+                    android:layout_toRightOf="@id/skydiveimg"
+                    android:text="Tandem skydiving"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/Secondline"
+                    android:layout_below="@id/skydivetxt"
+                    android:layout_toRightOf="@id/skydiveimg"
+                    android:text="Dubai, United Arab Emirates"/>
+
+            </RelativeLayout>
+            <View
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:scaleX="0.8"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/hotairballoonimg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/hotair"
+                    android:layout_marginLeft="44dp"/>
+                <TextView
+                    android:id="@+id/hotairballoontxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/Firstline"
+                    android:layout_toRightOf="@id/hotairballoonimg"
+                    android:text="Hot Air Balloon Ride"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/Secondline"
+                    android:layout_below="@id/hotairballoontxt"
+                    android:layout_toRightOf="@id/hotairballoonimg"
+                    android:text="Melbourne, Australia"/>
+
+            </RelativeLayout>
+            <View
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:scaleX="0.8"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/snowscooterimg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/snowscooter"
+                    android:layout_marginLeft="44dp"/>
+                <TextView
+                    android:id="@+id/snowscootertxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/Firstline"
+                    android:layout_toRightOf="@id/snowscooterimg"
+                    android:text="Snow scooter tour"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/Secondline"
+                    android:layout_below="@id/snowscootertxt"
+                    android:layout_toRightOf="@id/snowscooterimg"
+                    android:text="Snowmobile rental service in Sweden"/>
+
+            </RelativeLayout>
+            <View
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:scaleX="0.8"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/paraglidingimg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/paragliding"
+                    android:layout_marginLeft="44dp"/>
+                <TextView
+                    android:id="@+id/paraglidingtxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    style="@style/Firstline"
+                    android:layout_toRightOf="@id/paraglidingimg"
+                    android:text="Airtime Paragliding"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/Secondline"
+                    android:layout_below="@id/paraglidingtxt"
+                    android:layout_toRightOf="@id/paraglidingimg"
+                    android:text="Lauterbrunnen, Switzerland"/>
+            </RelativeLayout>
+            <View
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:scaleX="0.8"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/ziplineimg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/zipline"
+                    android:layout_marginLeft="44dp"/>
+                <TextView
+                    android:id="@+id/ziplinetxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/Firstline"
+                    android:layout_toRightOf="@id/ziplineimg"
+                    android:text="Zip line"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/Secondline"
+                    android:layout_below="@id/ziplinetxt"
+                    android:layout_toRightOf="@id/ziplineimg"
+                    android:text="Icy Strait Point, Alaska"/>
+            </RelativeLayout>
+            <View
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:scaleX="0.8"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/bungeeimg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/bungee"
+                    android:layout_marginLeft="44dp"/>
+                <TextView
+                    android:id="@+id/bungeetxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/Firstline"
+                    android:layout_toRightOf="@id/bungeeimg"
+                    android:text="Bungee jumping"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/Secondline"
+                    android:layout_below="@id/bungeetxt"
+                    android:layout_toRightOf="@id/bungeeimg"
+                    android:text="Macau Tower in Macau, China"/>
+
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

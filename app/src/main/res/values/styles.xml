@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="headings" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="menuitems" parent="TextAppearance.AppCompat">
+        <item name="font">@font/round</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+    <style name="description" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:paddingLeft">16dp</item>
+
+    </style>
+    <style name="eachtabitems" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/grey</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:textSize">32sp</item>
+
+
+    </style>
+
+    <style name="continentsheadings" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">32sp</item>
+
+
+    </style>
+    <style name="categoriesheadings" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">28sp</item>
+
+
+    </style>
+
+    <style name="Firstline" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/grey</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingLeft">18dp</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="Secondline" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">@color/grey</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingLeft">18dp</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+    <style name="Divider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="color">@color/white</item>
+        <item name="android:layout_height">3dp</item>
+        <item name="android:background">?android:attr/listDivider</item>
+    </style>
+
+</resources>

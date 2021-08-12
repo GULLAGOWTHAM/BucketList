@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:theme="@style/Theme.safari"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Hillstations"
+    android:background="@drawable/pinkwallpaper">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:gravity="center"
+            android:layout_marginLeft="8dp"
+            style="@style/categoriesheadings"
+            android:fontFamily="@font/disney"
+            android:text="Safari"
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:clickable="true"
+            android:drawableRight="@drawable/ic_baseline_arrow"
+            android:id="@+id/arrows"
+            android:scaleX="0.8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"/>
+
+    </RelativeLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleX="1.1"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="44dp"
+                android:layout_marginTop="-36dp"
+                android:src="@drawable/safariimg"/>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/maasaiimg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/maasai"
+                    android:layout_marginLeft="44dp"/>
+                <TextView
+                    android:id="@+id/maasaitxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    style="@style/Firstline"
+                    android:layout_toRightOf="@id/maasaiimg"
+                    android:text="Maasai Mara"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/Secondline"
+                    android:layout_below="@id/maasaitxt"
+                    android:layout_toRightOf="@id/maasaiimg"
+                    android:text="National reserve in Kenya"/>
+
+            </RelativeLayout>
+            <View
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:scaleX="0.8"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/ranthamboreimg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ranthambore"
+                    android:layout_marginLeft="44dp"/>
+                <TextView
+                    android:id="@+id/ranthamboretxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    style="@style/Firstline"
+                    android:layout_toRightOf="@id/ranthamboreimg"
+                    android:text="Ranthambore"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/Secondline"
+                    android:layout_below="@id/ranthamboretxt"
+                    android:layout_toRightOf="@id/ranthamboreimg"
+                    android:text="National park in Rajasthan"/>
+
+            </RelativeLayout>
+            <View
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:scaleX="0.8"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/safariwestimg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/safariwest"
+                    android:layout_marginLeft="44dp"/>
+                <TextView
+                    android:id="@+id/safariwesttxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/Firstline"
+                    android:layout_toRightOf="@id/safariwestimg"
+                    android:text="Safari West"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/Secondline"
+                    android:layout_below="@id/safariwesttxt"
+                    android:layout_toRightOf="@id/safariwestimg"
+                    android:text="California"/>
+
+            </RelativeLayout>
+            <View
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:scaleX="0.8"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/kangarooimg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/kangaroo"
+                    android:layout_marginLeft="44dp"/>
+                <TextView
+                    android:id="@+id/kangarootxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/Firstline"
+                    android:layout_toRightOf="@id/kangarooimg"
+                    android:text="Kangaroo Island"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/Secondline"
+                    android:layout_below="@id/kangarootxt"
+                    android:layout_toRightOf="@id/kangarooimg"
+                    android:text="Island in Australia"/>
+
+            </RelativeLayout>
+            <View
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:scaleX="0.8"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/serengetiimg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/serengeti"
+                    android:layout_marginLeft="44dp"/>
+                <TextView
+                    android:id="@+id/serengetitxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    style="@style/Firstline"
+                    android:layout_toRightOf="@id/serengetiimg"
+                    android:text="Serengeti National Park"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/Secondline"
+                    android:layout_below="@id/serengetitxt"
+                    android:layout_toRightOf="@id/serengetiimg"
+                    android:text="Tanzania, Africa"/>
+            </RelativeLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

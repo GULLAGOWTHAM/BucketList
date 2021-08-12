@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:theme="@style/Theme.drawer"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scaleX="1.1"
+    android:scaleY="1.02"
+    android:orientation="vertical"
+    tools:context=".Hillstations"
+    android:background="@drawable/purplewallpaper">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:gravity="center"
+            android:layout_marginLeft="8dp"
+            style="@style/categoriesheadings"
+            android:fontFamily="@font/disney"
+            android:text="hills Stations"
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:clickable="true"
+            android:drawableRight="@drawable/ic_baseline_arrow"
+            android:id="@+id/arrowh"
+            android:scaleX="0.8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"/>
+
+    </RelativeLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dp"
+        android:scaleX="0.9"
+        android:scaleY="0.9"
+        android:layout_marginTop="-36dp"
+        android:src="@drawable/hillstationimg"/>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/mussoorieimg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/mussoorie"
+                android:layout_marginLeft="44dp"/>
+            <TextView
+                android:id="@+id/mussoorietext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/Firstline"
+                android:layout_toRightOf="@id/mussoorieimg"
+                android:text="Mussoorie"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                style="@style/Secondline"
+                android:layout_below="@id/mussoorietext"
+                android:layout_toRightOf="@id/mussoorieimg"
+                android:text="Uttarakhand, India"/>
+
+        </RelativeLayout>
+            <View
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:scaleX="0.8"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/grawaimg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/grawa"
+                    android:layout_marginLeft="44dp"/>
+                <TextView
+                    android:id="@+id/grawatxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/Firstline"
+                    android:layout_toRightOf="@id/grawaimg"
+                    android:text="Grawa-Wasserfall"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/Secondline"
+                    android:layout_below="@id/grawatxt"
+                    android:layout_toRightOf="@id/grawaimg"
+                    android:text="Neustift im Stubaital, Austria"/>
+
+            </RelativeLayout>
+            <View
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:scaleX="0.8"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/machupichuimg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/machupichu"
+                    android:layout_marginLeft="44dp"/>
+                <TextView
+                    android:id="@+id/machupichutxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/Firstline"
+                    android:layout_toRightOf="@id/machupichuimg"
+                    android:text="Machu Picchu"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/Secondline"
+                    android:layout_below="@id/machupichutxt"
+                    android:layout_toRightOf="@id/machupichuimg"
+                    android:text="Historical place in Peru, SouthAmerica"/>
+
+            </RelativeLayout>
+            <View
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:scaleX="0.8"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+                <ImageView
+                    android:id="@+id/devilspeakimg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/devillspeak"
+                    android:layout_marginLeft="44dp"/>
+                <TextView
+                    android:id="@+id/devilspeaktxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/Firstline"
+                    android:layout_toRightOf="@id/devilspeakimg"
+                    android:text="Devils peak"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/Secondline"
+                    android:layout_below="@id/devilspeaktxt"
+                    android:layout_toRightOf="@id/devilspeakimg"
+                    android:text="Mountain in South Africa"/>
+
+            </RelativeLayout>
+            <View
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:scaleX="0.8"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/canmoreimg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/canmore"
+                    android:layout_marginLeft="44dp"/>
+                <TextView
+                    android:id="@+id/canmoretxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/Firstline"
+                    android:layout_toRightOf="@id/canmoreimg"
+                    android:text="Canmore"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/Secondline"
+                    android:layout_below="@id/canmoretxt"
+                    android:layout_toRightOf="@id/canmoreimg"
+                    android:text="Town in Canada"/>
+            </RelativeLayout>
+            <View
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:scaleX="0.8"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/threbdoimg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/threbdo"
+                    android:layout_marginLeft="44dp"/>
+                <TextView
+                    android:id="@+id/threbdotxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/Firstline"
+                    android:layout_toRightOf="@id/threbdoimg"
+                    android:text="Thredbo"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/Secondline"
+                    android:layout_below="@id/threbdotxt"
+                    android:layout_toRightOf="@id/threbdoimg"
+                    android:text="Snowy Mountains of southeastern Australia"/>
+            </RelativeLayout>
+            <View
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:scaleX="0.8"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
+        </LinearLayout>
+</ScrollView>
+</LinearLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    android:theme="@style/Theme.continents"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@color/continents"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:id="@+id/asiaheader"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:clickable="true"
+            android:drawableRight="@drawable/ic_baseline_arrow"
+            android:id="@+id/arrowasia"
+            android:scaleX="0.8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:text="Continents"
+            android:gravity="center"
+            style="@style/continentsheadings"
+            android:id="@+id/title"
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/disney"
+            android:padding="24dp"
+            android:contentDescription="TODO" />
+        <ImageView
+            android:id="@+id/emptyspace"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:padding="24dp"
+            android:contentDescription="TODO" />
+    </LinearLayout>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:background="@color/continents"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_margin="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/contaus"/>
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/RecyclerViewAustralia"
+            android:layout_margin="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</LinearLayout>
+

@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:theme="@style/Theme.relaxation"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Hillstations"
+    android:background="@drawable/orangewallpaper">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:gravity="center"
+            android:layout_marginLeft="8dp"
+            style="@style/categoriesheadings"
+            android:fontFamily="@font/disney"
+            android:text="Relaxation"
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:clickable="true"
+            android:drawableRight="@drawable/ic_baseline_arrow"
+            android:id="@+id/arrowr"
+            android:scaleX="0.8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"/>
+
+    </RelativeLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleX="1.1"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="44dp"
+                android:layout_marginTop="-36dp"
+                android:src="@drawable/relaxationimg"/>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/maldivesimg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/maldives"
+                    android:layout_marginLeft="44dp"/>
+                <TextView
+                    android:id="@+id/maldivestxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    style="@style/Firstline"
+                    android:layout_toRightOf="@id/maldivesimg"
+                    android:text="Maldives"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/Secondline"
+                    android:layout_below="@id/maldivestxt"
+                    android:layout_toRightOf="@id/maldivesimg"
+                    android:text="Country in South Asia"/>
+
+            </RelativeLayout>
+            <View
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:scaleX="0.8"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/tromsoimg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/tromso"
+                    android:layout_marginLeft="44dp"/>
+                <TextView
+                    android:id="@+id/tromsotxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    style="@style/Firstline"
+                    android:layout_toRightOf="@id/tromsoimg"
+                    android:text="Tromso Northern Lights"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/Secondline"
+                    android:layout_below="@id/tromsotxt"
+                    android:layout_toRightOf="@id/tromsoimg"
+                    android:text="The western coast of Northern Norway"/>
+
+            </RelativeLayout>
+            <View
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:scaleX="0.8"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/celecbritycruiseimg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/celebritycruise"
+                    android:layout_marginLeft="44dp"/>
+                <TextView
+                    android:id="@+id/celecbritycruisetxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/Firstline"
+                    android:layout_toRightOf="@id/celecbritycruiseimg"
+                    android:text="Celebrity Cruises"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/Secondline"
+                    android:layout_below="@id/celecbritycruisetxt"
+                    android:layout_toRightOf="@id/celecbritycruiseimg"
+                    android:text="Cruise line headquartered in Miami"/>
+
+            </RelativeLayout>
+            <View
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:scaleX="0.8"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/halongimg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/halong"
+                    android:layout_marginLeft="44dp"/>
+                <TextView
+                    android:id="@+id/halongtxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/Firstline"
+                    android:layout_toRightOf="@id/halongimg"
+                    android:text="Hạ Long Bay"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/Secondline"
+                    android:layout_below="@id/halongtxt"
+                    android:layout_toRightOf="@id/halongimg"
+                    android:text="Bay in Vietnam"/>
+
+            </RelativeLayout>
+            <View
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:scaleX="0.8"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/gracecimg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/grace"
+                    android:layout_marginLeft="44dp"/>
+                <TextView
+                    android:id="@+id/gracectxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    style="@style/Firstline"
+                    android:layout_toRightOf="@id/gracecimg"
+                    android:text="Grace Bay Beach"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/Secondline"
+                    android:layout_below="@id/gracectxt"
+                    android:layout_toRightOf="@id/gracecimg"
+                    android:text="Beach in Grace Bay, Turks and Caicos Islands"/>
+            </RelativeLayout>
+            <View
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:scaleX="0.8"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/jewelimg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/jewel"
+                    android:layout_marginLeft="44dp"/>
+                <TextView
+                    android:id="@+id/jeweltxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/Firstline"
+                    android:layout_toRightOf="@id/jewelimg"
+                    android:text="Jewel Changi Airport"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/Secondline"
+                    android:layout_below="@id/jeweltxt"
+                    android:layout_toRightOf="@id/jewelimg"
+                    android:text="Shopping mall in Singapore"/>
+            </RelativeLayout>
+            <View
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:scaleX="0.8"
+                android:layout_height="1dp"
+                android:background="@android:color/darker_gray"/>
+            <RelativeLayout
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/mykonosimg"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/mykonos"
+                    android:layout_marginLeft="44dp"/>
+                <TextView
+                    android:id="@+id/mykonostxt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/Firstline"
+                    android:layout_toRightOf="@id/mykonosimg"
+                    android:text="Mykonos"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    style="@style/Secondline"
+                    android:layout_below="@id/mykonostxt"
+                    android:layout_toRightOf="@id/mykonosimg"
+                    android:text="Island in Greece"/>
+
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

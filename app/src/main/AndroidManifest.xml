@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.bucketlist">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/bucketlistlogo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/bucketlistlogo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BucketList">
+        <activity android:name=".ContAustralia"></activity>
+        <activity android:name=".ContEurope" />
+        <activity android:name=".ContSouth" />
+        <activity android:name=".ContNorth" />
+        <activity android:name=".contafrica" />
+        <activity android:name=".Contasia" />
+        <activity android:name=".about" />
+        <activity android:name=".Adventure" />
+        <activity android:name=".Safari" />
+        <activity android:name=".Relaxation" />
+        <activity android:name=".Parks" />
+        <activity android:name=".waterfalls" />
+        <activity android:name=".Hillstations" />
+        <activity android:name=".skydive" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

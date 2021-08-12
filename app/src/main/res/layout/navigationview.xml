@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    app:cardCornerRadius="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<LinearLayout android:orientation="vertical"
+    android:id="@+id/navigationview"
+    android:layout_width="match_parent"
+    android:paddingLeft="16dp"
+    android:layout_height="176dp"
+    android:gravity="bottom"
+    android:background="@drawable/drawerbackground">
+
+    <ImageView
+        android:layout_marginBottom="16dp"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/bucketlistlogo"/>
+    <TextView
+        android:layout_marginLeft="-16dp"
+        android:layout_marginBottom="8dp"
+        android:textSize="16sp"
+        style="@style/headings"
+        android:fontFamily="@font/disney"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BuckList"/>
+    <TextView
+        android:layout_marginLeft="-16dp"
+        android:layout_marginBottom="16dp"
+        style="@style/headings"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcom Back!"/>
+
+</LinearLayout>
+</androidx.cardview.widget.CardView>
